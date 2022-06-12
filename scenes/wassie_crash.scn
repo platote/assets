@@ -345,7 +345,7 @@
         },
         {
           "key": "avatarUrl",
-          "value": "/avatars/loom_npc.vrm"
+          "value": "https://platote.github.io/assets/avatars/loom_npc.vrm"
         },
         {
           "key": "bio",
