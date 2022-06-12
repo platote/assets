@@ -307,11 +307,11 @@
     },
     {
       "position": [0,4,7],
-      "start_url": "https://platote.github.io/assets/loom_hot_balloon/"
+      "start_url": "https://platote.github.io/assets/loom_hot_balloon/index.js"
     },
     {
       "position": [0,0,0],
-      "start_url": "https://platote.github.io/assets/teleport/"
+      "start_url": "https://platote.github.io/assets/teleport/index.js"
     },
     {
       "position": [
@@ -333,7 +333,7 @@
     },
     {
       "position": [8,5,6],
-      "start_url": "https://platote.github.io/assets/npc/", 
+      "start_url": "https://platote.github.io/assets/npc/index.js", 
       "components": [
         {
           "key": "name",
