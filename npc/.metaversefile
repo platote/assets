@@ -1,0 +1,8 @@
+{
+  "name": "npc",
+  "description": "NPC",
+  "start_url": "index.js",
+  "components": {
+    "activate": true
+  }
+}
