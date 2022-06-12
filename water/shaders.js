@@ -3,8 +3,12 @@ import * as THREE from 'three'
 const shaderVertex = `
       ${THREE.ShaderChunk.common}
       #include <fog_pars_vertex>
+      
 
       varying vec2 vUv;
+      uniform float uBigWavesElevation;
+      uniform vec2 uBigWavesFrequency;
+      uniform float time;
      
 ${THREE.ShaderChunk.logdepthbuf_pars_vertex}
 void main() {
@@ -15,6 +19,12 @@ void main() {
   #include <fog_vertex>
 
   ${THREE.ShaderChunk.logdepthbuf_vertex}
+  vec4 modelPosition = modelMatrix * vec4(position, 1.0);
+  float elevation = sin(modelPosition.x * uBigWavesFrequency.x + time) * sin(modelPosition.z * uBigWavesFrequency.y + time) * uBigWavesElevation;
+  modelPosition.y += elevation;
+  vec4 viewPosition = viewMatrix * modelPosition;
+  vec4 projectedPosition = projectionMatrix * viewPosition;
+  gl_Position = projectedPosition;
 }
     `
 
@@ -25,15 +35,15 @@ const shaderFragment = `
   ${THREE.ShaderChunk.logdepthbuf_pars_fragment}
 
   varying vec2 vUv;
-      uniform sampler2D tDepth;
-      uniform sampler2D tDudv;
-      uniform vec3 waterColor;
-      uniform vec3 foamColor;
-      uniform float cameraNear;
-      uniform float cameraFar;
-      uniform float time;
-      uniform float threshold;
-      uniform vec2 resolution;
+  uniform sampler2D tDepth;
+  uniform sampler2D tDudv;
+  uniform vec3 waterColor;
+  uniform vec3 foamColor;
+  uniform float cameraNear;
+  uniform float cameraFar;
+  uniform float time;
+  uniform float threshold;
+  uniform vec2 resolution;
 
 
     float getDepth( const in vec2 screenPosition ) {
