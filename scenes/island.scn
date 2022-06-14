@@ -1,6 +1,6 @@
 {
   "objects": [
-    {
+   {
       "type": "application/rendersettings",
       "content": {
         "fog": {
@@ -58,15 +58,7 @@
     {
       "position": [
         0,
-        0,
-        0
-      ],
-      "start_url": "https://webaverse.github.io/atmospheric-sky/"
-    },
-    {
-      "position": [
-        0,
-        0,
+        -4.1,
         0
       ],
       "physics": true,
@@ -76,39 +68,83 @@
     {
       "position": [
         0,
-        0,
+        -4.1,
         0
       ],
       "start_url": "https://platote.github.io/assets/water/index.js",
       "dynamic": false
     },
     {
-      "position": [0,4,7],
+      "position": [0,3,7],
       "start_url": "https://platote.github.io/assets/loom_hot_balloon/index.js"
     },
     {
-      "position": [0,0,0],
-      "start_url": "https://platote.github.io/assets/teleport/index.js"
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/atmospheric-sky/"
+    },
+        {
+      "position": [0,0,3],
+      "start_url" : "https://platote.github.io/assets/apple/tiny_box.glb"
     },
     {
-      "position" : [0,4.25,2],
-      "start_url" : "https://platote.github.io/assets/birth/birth_machine.glb"
+      "position": [1,0,3],
+      "start_url" : "https://platote.github.io/assets/apple/tiny_box.glb"
     },
     {
-      "position" : [0,4.85,2],
-      "start_url" : "https://platote.github.io/assets/avatars/119.vrm"
+      "position": [2,0,3],
+      "start_url" : "https://platote.github.io/assets/apple/tiny_box.glb"
     },
     {
-      "position" : [2,4.25,0],
-      "start_url" : "https://platote.github.io/assets/birth/birth_machine.glb"
+      "position": [3,0,3],
+      "start_url" : "https://platote.github.io/assets/apple/tiny_box.glb"
     },
     {
-      "position" : [2,4.85,0],
-      "start_url" : "https://platote.github.io/assets/avatars/3222_v.vrm"
+      "position": [4,0,3],
+      "start_url" : "https://platote.github.io/assets/apple/tiny_box.glb"
     },
     {
-      "position": [0.4, 4.85,1],
-      "start_url": "https://platote.github.io/assets/avatars/loom.vrm"
+      "position": [5,0,3],
+      "start_url" : "https://platote.github.io/assets/apple/tiny_box.glb"
+    },
+    {
+      "position": [
+        1,0.5,3
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smol119.vrm"
+    },
+    {
+      "position": [
+        0,0.5,3
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smol3222.vrm"
+    },
+    {
+      "position": [
+        2,0.2,3
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smolPlatote.vrm"
+    },
+    {
+      "position": [
+        3,0.5,3
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smolLoom.vrm"
+    },
+    {
+      "position": [
+        4,0.5,3
+      ],
+      "start_url" : "https://platote.github.io/assets/smolWassie638.vrm"
+    },
+    {
+      "position": [
+        5,0.5,3
+      ],
+      "start_url" : "https://platote.github.io/assets/smolYellow.vrm"
     }
   ]
 }
