@@ -1,5 +1,6 @@
 import * as THREE from 'three';
-import metaversefile from 'metaversefile'
+import metaversefile from 'metaversefile';
+// import * as dat from 'lil-gui';
 
 const { useApp, useFrame, useInternals } = metaversefile;
 
@@ -7,6 +8,10 @@ import {
     shaderVertex,
     shaderFragment
   } from './shaders.js'
+
+console.log(shaderVertex);
+
+// const gui = new dat.GUI({ width: 340 })
 
 export default e => {
     const app = useApp();
@@ -84,10 +89,18 @@ export default e => {
         },
         waterColor: {
           value: new THREE.Color()
+        },
+        uBigWavesElevation : {
+          value : 0.2
+        },
+        uBigWavesFrequency: {
+           value: new THREE.Vector2(0.33, 0.34) 
         }
       };
 
-      let waterGeometry = new THREE.PlaneBufferGeometry(100, 100);
+      
+
+      let waterGeometry = new THREE.PlaneBufferGeometry(100, 100, 512, 512);
 
       let waterMaterial = new THREE.ShaderMaterial({
         defines: {
@@ -99,6 +112,10 @@ export default e => {
         fragmentShader: shaderFragment, 
         fog: true
       });
+
+      // gui.add(waterMaterial.uniforms.uBigWavesElevation, 'value').min(0).max(1).step(0.001).name('uBigWavesElevation')
+      // gui.add(waterMaterial.uniforms.uBigWavesFrequency.value, 'x').min(0).max(1).step(0.001).name('uBigWavesFrequencyX')
+      // gui.add(waterMaterial.uniforms.uBigWavesFrequency.value, 'y').min(0).max(1).step(0.001).name('uBigWavesFrequencyY')
 
       waterMaterial.uniforms.cameraNear.value = camera.near;
       waterMaterial.uniforms.cameraFar.value = camera.far;
