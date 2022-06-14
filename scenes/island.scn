@@ -1,0 +1,110 @@
+{
+  "objects": [
+    {
+      "type": "application/rendersettings",
+      "content": {
+        "fog": {
+          "fogType": "exp",
+          "args": [[250, 250, 250], 0.01]
+        },
+        "ssao": {
+          "kernelRadius": 16,
+          "minDistance": 0.005,
+          "maxDistance": 0.1
+        },
+        "dof": {
+          "focus": 2.0,
+          "aperture": 0.0001,
+          "maxblur": 0.005
+        },
+        "hdr": {
+          "adaptive": true,
+          "resolution": 256,
+          "adaptionRate": 100,
+          "maxLuminance": 10,
+          "minLuminance": 0,
+          "middleGrey": 3
+        },
+        "bloom": {
+          "strength": 0.1,
+          "radius": 0.5,
+          "threshold": 0.9
+        }
+      }
+    },
+    {
+      "type": "application/spawnpoint",
+      "content": {
+        "position": [0, 10, 0 ],
+        "quaternion": [0, -1.0,0.0, 0.0]
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "ambient",
+        "args": [[255, 255, 255], 0.5]
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "directional",
+        "args": [[255, 255, 255], 5],
+        "position": [1, 2, 3],
+        "shadow": [150, 5120, 0.1, 10000, -0.0001]
+      }
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/atmospheric-sky/"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "physics": true,
+      "start_url": "https://platote.github.io/assets/island/desert_01.glb",
+      "dynamic": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://platote.github.io/assets/water/index.js",
+      "dynamic": false
+    },
+    {
+      "position": [0,4,7],
+      "start_url": "https://platote.github.io/assets/loom_hot_balloon/index.js"
+    },
+    {
+      "position": [0,0,0],
+      "start_url": "https://platote.github.io/assets/teleport/index.js"
+    },
+    {
+      "position" : [0,4.25,2],
+      "start_url" : "https://platote.github.io/assets/birth/birth_machine.glb"
+    },
+    {
+      "position" : [0,4.85,2],
+      "start_url" : "https://platote.github.io/assets/avatars/119v3.vrm"
+    },
+    {
+      "position" : [2,4.25,0],
+      "start_url" : "https://platote.github.io/assets/birth/birth_machine.glb"
+    },
+    {
+      "position" : [2,4.85,0],
+      "start_url" : "https://platote.github.io/assets/avatars/3222_v.vrm"
+    }
+  ]
+}
