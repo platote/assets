@@ -107,10 +107,6 @@
       "start_url" : "https://platote.github.io/assets/avatars/3222_v.vrm"
     },
     {
-      "position" : [0,4.25,1],
-      "start_url" : "https://platote.github.io/assets/birth/birth_machine.glb"
-    },
-    {
       "position": [0.4, 4.85,1],
       "start_url": "https://platote.github.io/assets/avatars/loom.vrm"
     }
