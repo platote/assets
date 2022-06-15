@@ -111,6 +111,10 @@
       "start_url" : "https://platote.github.io/assets/apple/tiny_box.glb"
     },
     {
+      "position": [6,0,3],
+      "start_url" : "https://platote.github.io/assets/apple/tiny_box.glb"
+    },
+    {
       "position": [
         1,0.5,3
       ],
@@ -145,6 +149,12 @@
         5,0.5,3
       ],
       "start_url" : "https://platote.github.io/assets/avatars/smolYellow.vrm"
+    },
+    {
+      "position": [
+        6,0.5,3
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smol8809_3.vrm"
     }
   ]
 }
