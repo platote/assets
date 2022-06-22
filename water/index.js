@@ -9,7 +9,6 @@ import {
     shaderFragment
   } from './shaders.js'
 
-console.log(shaderVertex);
 
 // const gui = new dat.GUI({ width: 340 })
 
@@ -133,7 +132,6 @@ export default e => {
 
       water = new THREE.Mesh(waterGeometry, waterMaterial);
       water.rotation.x = -Math.PI * 0.5;
-      water.position.y = 3.5;
 
       app.add(water);
 
