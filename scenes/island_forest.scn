@@ -227,6 +227,38 @@
         0.797
       ],
       "start_url" : "https://platote.github.io/assets/avatars/smol3222.vrm"
+    },
+    {
+        "start_url" : "https://platote.github.io/assets/wearables/head/hat.glb",
+        "position" : [
+            0,
+            6,
+            5.34
+        ],
+        "components" : [
+            "key" : "wear",
+            "value" : {
+                "boneAttachment" : "head",
+                "position": [0,-0.11, -0.02],
+                "quaternion" : [0,0,0,1]
+            }
+        ]
+    },
+    {
+        "start_url" : "https://platote.github.io/assets/wearables/head/glasses.glb",
+        "position" : [
+            0,
+            6,
+            4.34
+        ],
+        "components" : [
+            "key" : "wear",
+            "value" : {
+                "boneAttachment" : "head",
+                "position": [0,-0.11, -0.02],
+                "quaternion" : [0,0,0,1]
+            }
+        ]
     }
   ]
 }
