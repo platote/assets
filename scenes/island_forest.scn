@@ -1,0 +1,232 @@
+{
+  "objects": [
+    {
+      "type": "application/rendersettings",
+      "content": {
+        "fog": {
+          "fogType": "exp",
+          "args": [[0, 99, 52], 0.08]
+        },
+        "ssao": {
+          "kernelRadius": 16,
+          "minDistance": 0.005,
+          "maxDistance": 0.1
+        },
+        "dof": {
+          "focus": 2.0,
+          "aperture": 0.0001,
+          "maxblur": 0.005
+        },
+        "hdr": {
+          "adaptive": true,
+          "resolution": 256,
+          "adaptionRate": 100,
+          "maxLuminance": 10,
+          "minLuminance": 0,
+          "middleGrey": 3
+        },
+        "bloom": {
+          "strength": 0.1,
+          "radius": 0.5,
+          "threshold": 0.9
+        }
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "ambient",
+        "args": [[255, 255, 255], 0.5]
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "directional",
+        "args": [[255, 255, 255], 5],
+        "position": [1, 2, 3],
+        "shadow": [150, 5120, 0.1, 10000, -0.0001]
+      }
+    },
+    {
+      "type": "application/spawnpoint",
+      "content": {
+        "position": [13, 6, -3.45 ],
+        "quaternion": [0, -1.0,0.0, 0.0]
+      }
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://platote.github.io/assets/teleport/teleport_island.js"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/atmospheric-sky/"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "physics": true,
+      "start_url": "https://platote.github.io/assets/island/island.glb",
+      "dynamic": false
+    },
+    {
+      "position": [
+        0,
+        -0.1,
+        0
+      ],
+      "start_url": "https://platote.github.io/assets/water/index.js",
+      "dynamic": false
+    },
+    {
+      "position": [0,6,7],
+      "start_url": "/platote_assets/loom_hot_balloon/index.js"
+    },
+    {
+      "position": [1,6,6],
+      "start_url": "/platote_assets/npc/", 
+      "components": [
+        {
+          "key": "name",
+          "value": "loom"
+        },
+        {
+          "key": "voice",
+          "value": "Cadance"
+        },
+        {
+          "key": "avatarUrl",
+          "value": "https://platote.github.io/assets/avatars/smolLoom.vrm"
+        },
+        {
+          "key": "bio",
+          "value": "His nickname is loom, or loomdart. He enjoys wassies and is a remarkable trader."
+        }
+      ]
+    },
+    {
+      "position": [
+        0,
+        11.46,
+        14
+      ],
+      "physics": true,
+      "start_url": "https://platote.github.io/assets/birthMachine/birth_machine2.glb",
+      "dynamic": false
+    },
+    {
+      "position": [
+        0,11.46,14
+      ],
+      "quaternion" : [
+        0,
+        0,
+        0,
+        1
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smolPlatote13.vrm"
+    },
+    {
+      "position": [
+         11.90,
+        4.25,
+        -4
+      ],
+      "quaternion" : [
+        0,
+        -0.604,
+        0,
+        0.797
+      ],
+      "physics": true,
+      "start_url": "https://platote.github.io/assets/birthMachine/birth_machine2.glb",
+      "dynamic": false
+    },
+    {
+      "position": [
+        11.90,
+        4.64,
+        -4
+      ],
+      "quaternion" : [
+        0,
+        -0.604,
+        0,
+        0.797
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smol119.vrm"
+    },
+    {
+      "position": [
+         11.90,
+        4.25,
+        -3.3
+      ],
+      "quaternion" : [
+        0,
+        -0.604,
+        0,
+        0.797
+      ],
+      "physics": true,
+      "start_url": "https://platote.github.io/assets/birthMachine/birth_machine2.glb",
+      "dynamic": false
+    },
+    {
+      "position": [
+        11.90,
+        4.64,
+        -3.3
+      ],
+      "quaternion" : [
+        0,
+        -0.604,
+        0,
+        0.797
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smol8809_5.vrm"
+    },
+    {
+      "position": [
+         12.2,
+        4.2,
+        -2.7
+      ],
+      "quaternion" : [
+        0,
+        -0.604,
+        0,
+        0.797
+      ],
+      "physics": true,
+      "start_url": "https://platote.github.io/assets/birthMachine/birth_machine2.glb",
+      "dynamic": false
+    },
+    {
+      "position": [
+        12.2,
+        4.64,
+        -2.7
+      ],
+      "quaternion" : [
+        0,
+        -0.604,
+        0,
+        0.797
+      ],
+      "start_url" : "https://platote.github.io/assets/avatars/smol3222.vrm"
+    }
+  ]
+}
