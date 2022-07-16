@@ -263,6 +263,14 @@
                 }
             }
       ]
+    },
+    {
+      "position": [
+        2,
+        5.3,
+        3.7
+      ],
+      "start_url": "https://platote.github.io/assets/island/dancing_wassie.glb"
     }
   ]
 }

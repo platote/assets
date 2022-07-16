@@ -1,0 +1,19 @@
+{
+  "name": "pistol",
+  "description": "A ranged weapon",
+  "start_url": "index.js",
+  "components": [
+    {
+      "key": "aim",
+      "value": {
+        "ikHand": "right"
+      }
+    },
+    {
+      "key": "use",
+      "value": {
+        "ik": "pistol"
+      }
+    }
+  ]
+}
