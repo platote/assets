@@ -1,0 +1,17 @@
+{
+  "name": "Spaceship",
+  "start_url": "https://webaverse.github.io/Spaceship/ToonSpaceship_v4.glb",
+  "components": [
+    {
+      "key": "sit",
+      "value": {
+        "sitOffset": [0, -0.2, 0],
+        "walkAnimation": ["wing_2_low|Take 001|BaseLayer", "wing_2_low001|Take 001|BaseLayer", "Object001|Take 001|BaseLayer", "Object002|Take 001|BaseLayer", "Object003|Take 001|BaseLayer", "Object004|Take 001|BaseLayer"],
+        "walkAnimationHoldTime": 1,
+        "walkAnimationSpeedFactor": 0.1,
+        "speed": 0.02,
+        "damping": 0.99
+      }
+    }
+  ]
+}

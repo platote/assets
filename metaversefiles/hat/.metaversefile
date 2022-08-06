@@ -1,0 +1,13 @@
+{
+  "start_url": "https://platote.github.io/hat/hat.glb",
+  "components": [
+    {
+      "key": "wear",
+      "value": {
+        "boneAttachment": "head",
+        "position": [0, -0.15, -0.02],
+        "quaternion": [0, 0, 0, 1]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "name" : "Wassie Skate",
+    "start_url"  : "wassie_skate.glb",
+    "components" : [
+        {
+            "key" : "sit",
+            "value": {
+                "subtype": "saddle",
+                "sitOffset": [0, 0.1, 0],
+                "walkAnimationHoldTime": 1,
+                "walkAnimationSpeedFactor": 0.1,
+                "speed": 0.02,
+                "damping": 0.99
+              }
+        }
+    ]
+}
