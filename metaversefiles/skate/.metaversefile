@@ -1,7 +1,7 @@
 {
-  "name": "hovercraft",
-  "description": "hovercraft",
-  "start_url": "https://platote.github.io/skate/skate.glb",
+  "name": "Wassie Skateboard",
+  "description": "A cool wassie skate",
+  "start_url": "https://platote.github.io/assets/wassie_skate/wassie_skate.glb",
   "components": [
     {
       "key": "sit",

@@ -1,0 +1,13 @@
+{
+    "name" : "wassie skate 101",
+    "start_url" : "/assets/air_skate.glb",
+    "components" : [
+        {
+            "key" : "sit", 
+            "value" : {
+                "speed": 0.02,
+                "damping": 0.99
+            }
+        }
+    ]
+}

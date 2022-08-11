@@ -1,4 +1,5 @@
 {
+  "name" : "HAT",
   "start_url": "https://platote.github.io/hat/hat.glb",
   "components": [
     {
