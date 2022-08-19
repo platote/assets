@@ -1,0 +1,177 @@
+{
+  "objects": [
+    {   
+      "type": "application/rendersettings",
+      "content": {
+        "fog": {
+          "fogType": "exp",
+          "args": [[30, 100, 255], 0.001]
+        },
+        "ssao": {
+          "kernelRadius": 16,
+          "minDistance": 0.005,
+          "maxDistance": 0.1
+        },
+        "dof": {
+          "focus": 2.0,
+          "aperture": 0.0001,
+          "maxblur": 0.0005
+        },
+        "hdr": {
+          "adaptive": true,
+          "resolution": 256,
+          "adaptionRate": 100,
+          "maxLuminance": 10,
+          "minLuminance": 0,
+          "middleGrey": 3
+        }
+      }
+    },
+     {
+      "type": "application/light",
+      "content": {
+        "lightType": "ambient",
+        "args": [[242, 210, 189],5]
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "directional",
+        "args": [[242, 210, 189],5],
+        "position": [1, 30, 3],
+        "shadow": [50, 4096, 0.1, 1000, 0, 0.2]
+      }
+    },
+    {
+      "type": "application/spawnpoint",
+      "content": {
+        "position": [0, 2, 0],
+        "quaternion": [0,  -0.7106159306947626, 0, 0.7035801297953321]
+      }
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "start_url": "https://webaverse.github.io/atmospheric-sky/"
+    },
+    {
+      "position" : [3,0.3,0.2],
+      "quaternion" : [0, 0.684, 0, 0.729],
+      "start_url" : "/platote_assets/avatars/smolPlatote13.vrm"
+    },
+    {
+      "position" : [2,0.7,-1.8],
+      "quaternion" : [0, 0.898, 0, 0.44],
+      "start_url" : "/platote_assets/avatars/chubby_pipe_yellow_outline.vrm"
+    },
+    {
+      "position" : [0.15,0.5,-2.8],
+      "quaternion" : [0, 1, 0, 0.07],
+      "start_url" : "/platote_assets/avatars/werewolf_clown_orangeblue.vrm"
+    },
+    {
+      "position" : [1.8,0.6,2.2],
+      "quaternion" : [0, 0.303, 0, 0.951],
+      "start_url" : "/platote_assets/avatars/chinchin.vrm"
+    },
+    {
+      "position" : [-2.2,0.6,2.2],
+      "quaternion" : [0, -0.376, 0, 0.927],
+      "start_url" : "/platote_assets/avatars/duck_mask_yellow.vrm"
+    },
+    {
+      "position" : [-3,0.6,-0.1],
+      "quaternion" : [0, -0.681, 0, 0.732],
+      "start_url" : "/platote_assets/avatars/spiky_arrow_blue.vrm"
+    },
+    {
+      "position" : [-1.8,0.6,-2.1],
+      "quaternion" : [0, -0.916, 0, 0.401],
+      "start_url" : "/platote_assets/avatars/snail_moustache_red.vrm"
+    },
+    {
+      "position": [
+        -0.3,
+        2,
+        -2
+      ],
+      "quaternion" : [0.274, 0, 0, 0.962],
+      "scale" : [0.5, 0.5, 1],
+      "start_url": "https://webaverse.github.io/mirror/"
+    },
+    {
+      "position": [
+        0,
+        112,
+        0
+      ],
+      "start_url": "/platote_assets/water/index.js",
+      "dynamic": false
+    },
+    {
+      "position": [
+        1,
+        -342,
+        2
+      ],
+      "start_url": "/platote_assets/uzi/",
+      "dynamic": false
+    },
+    {
+      "position": [
+        -2,
+        -342,
+        8
+      ],
+      "start_url": "/platote_assets/shooting_target/",
+      "dynamic": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "physics": true,
+      "start_url": "/platote_assets/wassup/",
+      "dynamic": false
+    },
+    {
+      "position": [
+        1,
+        -246.5,
+        0
+      ],
+      "start_url": "/platote_assets/air_skates/"
+    },
+    {
+      "position": [
+        0,
+        2,
+        0
+      ],
+      "quaternion": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "type": "application/npc",
+      "content": {
+        "name": "Loomdart",
+        "avatarUrl": "/platote_assets/avatars/smolLoom.vrm",
+        "voice": "Maud Pie",
+        "bio": "His name is Loom, or Loomdart. A very successful trader, Wassie are used to worship him"
+      }
+    }
+  ]
+}

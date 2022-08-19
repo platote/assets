@@ -1,6 +1,6 @@
 {
     "name" : "wassie skate 101",
-    "start_url" : "/assets/air_skate.glb",
+    "start_url" : "index.js",
     "components" : [
         {
             "key" : "sit", 
